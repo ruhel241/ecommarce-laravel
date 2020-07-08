@@ -25,6 +25,7 @@ Or Customize your .env file & .env.example
 DB_DATABASE=ecommerce
 DB_USERNAME=root
 DB_PASSWORD=root
+```
 
 Navigate your project then command in your terminal, **database migrate & seed** 
 
