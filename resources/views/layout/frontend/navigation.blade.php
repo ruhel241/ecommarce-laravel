@@ -18,9 +18,16 @@
         <li><a href="/">Shop</a></li>
         <li><a href="{{Route('cart.index')}}">Cart</a></li>
         <li><a href="{{Route('checkout.shipping')}}">Checkout</a></li>
-        <li><a href="{{Route('login')}}">Login</a></li>
-        <li><a href="{{Route('register')}}">Sign Up</a></li>
-        <li><a href="#">Contact Us</a></li>
+              @if (Route::has('login'))
+                @auth
+                  <li><a href="{{ url('/admin') }}">Dashboard</a></li>
+                  <li><a href="{{ url('/logout') }}">Logout</a></li>
+                @else
+                  <li><a href="{{Route('login')}}">Login</a></li>
+                  <li><a href="{{Route('register')}}">Sign Up</a></li>
+                @endauth
+             @endif
+          <li><a href="#">Contact Us</a></li>
       </ul>
 
    </div><!-- /.navbar-collapse -->
