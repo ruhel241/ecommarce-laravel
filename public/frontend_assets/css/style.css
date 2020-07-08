@@ -1,0 +1,210 @@
+.header{
+	/*border: solid 1px; */
+	background: #1A7DA7;
+	height: 100px;
+	padding: 0px;
+
+}
+
+
+.search{
+ 	margin-top: 20px
+}
+
+.cart{
+
+	margin-top: 20px;
+	margin-left: 90px;
+}
+
+.cart i{
+	font-size: 35px;
+	color: white;
+}
+
+.cart span{
+
+	bottom: 10px;
+	left: 20px;
+	color: white;
+	position: relative;
+}
+
+.fa-heart{
+
+	position: relative;
+	left: 40px;
+
+}
+
+.logo{
+
+	margin-left: 114px;
+	margin-top: 10px; 
+}
+
+.logo img{
+	/* height: 10; */
+	width: 30%
+}
+
+
+.navbar-nav{
+	margin-left: 80px;
+}
+
+.navbar-default{
+background-color: #133151;
+border-color: #133151;
+border-radius: 0px  
+}
+
+.navbar-default a{
+font-size: 18px;
+color: white !important;
+}
+
+
+.container {
+	background: #ffff;
+	 height: 1000px; 
+	margin-top: -20px;
+	box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+	/*margin-bottom: 59px;*/
+	/*padding-bottom: 60px;*/
+}
+/*.categories{
+	border:solid 1px gray; height: auto;
+}*/
+
+
+.categories h4{
+	text-align: center;
+
+	border-bottom: 2px solid rgba(0, 0, 0, 0.17); 
+	width: 200px;
+	padding-bottom: 5px;
+	margin-left: 30px
+}
+.categories li{
+	list-style: none;
+	padding: 2px;
+	font-size: 16px
+}
+
+
+.products .sku {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.sku {
+	height: 383px;
+	position: relative;
+}
+
+.product{
+padding: 10px
+
+}
+
+.product:hover{
+	box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.price {
+	
+	text-align: center;
+}
+.butt {
+	margin-left: 64px;
+}
+
+.single_price{
+
+	font-size: 25px;
+	color: orange;
+	font-weight: bold;
+}
+
+
+.quant {
+	color: #696763;
+	font-size: 16px;
+	top: -4px;
+	position: relative;
+	left: 10px;
+}
+.number{
+
+	top: -4px;
+	position: relative;
+	left: 12px;
+}
+
+.cart-btn{
+	font-size: 16px; 
+}
+
+
+.table {
+	border: 1px solid rgba(0,0,0,.1);
+}
+
+.cart_thead {
+	height: 50px;
+	font-size: 16px;
+	color: white;
+}
+
+/*.fa-times{
+	background: #f0f0e9;
+	color: red;
+	width: 1em;
+	text-align: center;
+	font-size: 1.9em;
+	height: 15px;
+	border-radius: 0px
+}*/
+
+.cart_img img{
+
+	width: 20%;
+	/*height: 50px;*/
+}
+
+.cart_total{
+
+	float: left;
+}
+
+.Checkout_btn{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.form-control-feedback{
+
+	top: 10px;
+	right: 15px;
+	font-size: 16px !important;
+
+}
+
+.categories a:hover{
+	background-color: #1A7DA7;
+	color: white;
+}
+
+#itemCount {
+	position: absolute;
+	display: none;
+	top: 14px;
+	left: 132px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: red;
+	color: white;
+	text-align: center;
+}

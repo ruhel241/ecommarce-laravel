@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   
+  <div class="container-fluid">
+      <div class="row">
+        <div class="header"> 
+            <div class="col-md-4"> 
+              <div class="logo"> <img src="images/logo.jpg" height="80px"; width="100%"></div>
+            </div>
+            <div class="col-md-4"> 
+              <div class="search">
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="search">Search:</label>
+                      <div class="col-sm-10">
+                        <input type="search" class="form-control" id="search" placeholder="Enter search">
+                      </div>
+                    </div>
+                  </form> 
+              </div>
+            </div>
+            <div class="col-md-4"> 
+              <div class="cart"> <a href="checkout.html"><i class="fa fa-shopping-cart"> </i><span id="itemCount" style="display: block;">3</span>  <span> Cart </span> <span>( 3 items - ৳ 50.00 )</span></a> <i class="fa fa-heart"> </i> </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="sign_up.html">Sign Up</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+
+           </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+ </div>
+</div>
+
+
+<!-- main Container start -->
+    <div class="container">
+        <div class="row">
+
+          <div class="main-section">
+            
+          <div class="col-md-3"> 
+            <div class="categories">
+                <h4> Product Categories </h4>
+              <div id="main-menu" class="list-group">
+                  
+                 <a href="#sub-menu2" class="list-group-item" data-toggle="collapse" data-parent="#main-menu">Item 1 <span class="caret"></span></a>
+                  <div class="collapse list-group-level1" id="sub-menu2">
+                    <a href="#" class="list-group-item" data-parent="#sub-menu">Sub Item 1</a>
+                    <a href="#" class="list-group-item" data-parent="#sub-menu">Sub Item 2</a>
+                    <a href="#" class="list-group-item" data-parent="#sub-menu">Sub Item 3</a>
+                  </div>
+
+                  <a href="#" class="list-group-item">Item 2</a>
+                  <a href="#" class="list-group-item">Item 3</a>
+                  <a href="#" class="list-group-item">Item 4</a>
+                  <a href="#" class="list-group-item">Item 5</a>
+              </div>
+            </div>  
+          </div>
+
+           <div class="col-md-9">
+
+            <h3> Sign Up  </h3>
+           
+            <div class="col-md-8 center-block">
+             <form class="form-horizontal" action="/action_page.php">
+                 <div class="form-group">
+                      <label class="control-label col-sm-8" for="name">Already have an account? </label>
+                      <div class="col-sm-4">
+                        <button class="btn btn-default"> Login </button>
+                       
+                      </div>
+                  </div>
+
+                    <div class="form-group">
+                      <label class="control-label col-sm-4" for="name">Name:</label>
+                      <div class="col-sm-8">
+                        <input type="test" class="form-control" id="name" placeholder="Your Full Name" name="name">
+                        <i class="fa fa-user form-control-feedback"></i>
+                      </div>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label class="control-label col-sm-4" for="pwd">Email:</label>
+                      <div class="col-sm-8">          
+                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email Address" name="email">
+                         <i class="fa fa-envelope form-control-feedback"></i>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="control-label col-sm-4" for="mob">Mobile:</label>
+                      <div class="col-sm-8">          
+                        <input type="text" class="form-control" id="mob" placeholder="Enter Your Mobile Number" name="mobile">
+                         <i class="fa fa-phone form-control-feedback"></i>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="control-label col-sm-4" for="pwd">Password:</label>
+                      <div class="col-sm-8">          
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                       <i class="fa fa-lock form-control-feedback"></i> 
+                      </div>
+                    </div>
+
+
+
+                    <div class="form-group">        
+                      <div class="col-sm-offset-4 col-sm-8">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+                    </div>
+                   </form>
+
+              </div>
+                 
+            </div> 
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
