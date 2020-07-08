@@ -64,16 +64,16 @@ After build your site then Remove
 
 ```
 
-### Admin Panel Access
+## Admin Panel Access
 
-## Login
+### Login
 ```
 http://127.0.0.1:8000/login
 User Name: admin@gmail.com
 pass:123456
 ```
 
-## Admin panel
+### Admin panel
 ```
 http://127.0.0.1:8000/admin
 ```
